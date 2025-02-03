@@ -9,8 +9,8 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'dist'), // Output - Dynamically generated filenames 
         filename: '[name].[contenthash].js',
-        // publicPath: '/webpack-test/', // Adding this make npx webpack serve not work...
-        publicPath:'/',
+        publicPath: '/webpack-test/', // Adding this make npx webpack serve not work...
+        // publicPath:'/',
         clean: true,
     },
     module: {
