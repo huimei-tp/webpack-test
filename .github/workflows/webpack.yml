@@ -31,5 +31,5 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@v4
       with:
         branch: gh-pages
-        folder: dist  # Specify the folder where your webpack build files are located
+        folder: /
         token: ${{ secrets.ghp }}
