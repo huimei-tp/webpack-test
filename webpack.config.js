@@ -70,6 +70,7 @@ module.exports = {
         new HtmlWebpackPlugin({
             template: './index.html',
             filename: 'index.html',
+            base: '/webpack-test/', 
         })
     ],
     mode: 'production',
