@@ -1,0 +1,28 @@
+.nav-bar {
+    background: #727D73 !important;
+    position: fixed !important;
+    width: 100vw;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link {
+    color: #F0F0D7 !important;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0px 24px 0px;
+}
+
+.nav-link:hover {
+    color: #2c352d !important;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0px 24px 0px;
+}
