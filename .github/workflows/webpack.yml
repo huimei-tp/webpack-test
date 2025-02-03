@@ -32,4 +32,4 @@ jobs:
       with:
         branch: gh-pages
         folder: dist  # Specify the folder where your webpack build files are located
-        token: ${{ secrets.GITHUB_TOKEN }}
+        token: ${{ secrets.ghp }}
