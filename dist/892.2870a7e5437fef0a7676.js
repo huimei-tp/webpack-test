@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkwebpack_test=self.webpackChunkwebpack_test||[]).push([[892],{892:(a,s,c)=>{c.r(s),c.d(s,{default:()=>t});var e=c(5448);c(6540);const n=c.p+"images/background.png";c.p;var r=c(4848);function t(){return(0,r.jsx)(e.A,{className:"layout",children:(0,r.jsx)("div",{className:"background-container",children:(0,r.jsx)("img",{src:n,alt:"background",className:"background"})})})}}}]);
+//# sourceMappingURL=892.2870a7e5437fef0a7676.js.map

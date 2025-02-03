@@ -1,0 +1,71 @@
+body {
+    margin: 0px !important;
+}
+
+* {
+    font-family: "Nunito Sans", serif;
+}
+
+.layout {
+    padding-top: 60px;
+    min-height: 100vh;
+}
+
+.background {
+    width: 100vw;
+}
+
+.background-container {
+    position: relative; 
+    overflow: hidden;
+}
+
+.background {
+    width: 100%;
+    object-fit: cover; 
+    background-attachment: fixed;
+}
+
+.title {
+    position: absolute; 
+    top: 40%; 
+    left: 60%; 
+    z-index: 1; 
+    width: 32%;
+}
+
+h1 {
+    color: #323a33 !important;
+    letter-spacing: 5px !important;
+}
+
+p {
+    color: #323a33 !important;
+    line-height: 40px;
+}
+
+.profile-photo {
+    width: 24vw;
+}
+
+.curated-notes {
+    width: 82%;
+}
+
+.cert {
+    width: 90%;
+}
+
+.column {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.content-box {
+    overflow-y: scroll;
+}
+
+.hi-fi {
+    width: 100%;
+}
