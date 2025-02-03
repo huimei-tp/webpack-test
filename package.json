@@ -8,7 +8,7 @@
     "url": "git+https://github.com/huimei-tp/webpack-test.git"
   },
   "scripts": {
-    "start": "webpack serve",
+    "start": "webpack-dev-server",
     "build": "webpack --mode production",
     "dev": "webpack --watch",
     "test": "echo \"Error: no test specified\" && exit 1",
