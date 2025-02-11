@@ -1,5 +1,5 @@
 import React, { lazy, Suspense } from 'react';
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { createHashRouter, RouterProvider, Route, createRoutesFromElements, Outlet } from "react-router-dom";
 import NavBar from './components/NavBar.jsx';
 import '../css/App.css';
 
@@ -32,12 +32,10 @@ function BaseLayout() {
   );
 }
 
-const App = () => {
-  return (
-      <Router>
-          <BaseLayout />
-      </Router>
-  );
+const App  = () => {
+    return (
+          <RouterProvider router={router} />
+    );
 };
 
 export default App;
