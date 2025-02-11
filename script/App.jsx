@@ -1,5 +1,5 @@
 import React, { lazy, Suspense } from 'react';
-import { createHashRouter, RouterProvider, Route, createRoutesFromElements, Outlet } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import NavBar from './components/NavBar.jsx';
 import '../css/App.css';
 
