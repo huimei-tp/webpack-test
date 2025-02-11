@@ -1,5 +1,5 @@
 import React, { lazy, Suspense } from 'react';
-import { Router, Route, createBrowserRouter, RouterProvider, createRoutesFromElements, Outlet } from "react-router-dom";
+import { Router, Route, createHashRouter, RouterProvider, createRoutesFromElements, Outlet } from "react-router-dom";
 import NavBar from './components/NavBar.jsx';
 import '../css/App.css';
 
@@ -9,7 +9,7 @@ const Progress = lazy(() => import('./screens/Progress.jsx'));
 const Prototype = lazy(() => import('./screens/Prototype.jsx'));
 const Summary = lazy(() => import('./screens/Summary.jsx'));
 
-const router = createBrowserRouter(
+const router = createHashRouter(
   createRoutesFromElements(
     <Route path="/" element={<BaseLayout />}>
         <Route index element={<Home />} />
